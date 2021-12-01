@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #161616;
+}
+
+.flex {
+    display: flex;
+}
+
+.tab {
+    height: inherit;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab > * {
+    margin-bottom: 2rem;
+}
+
+.meow {
+    align-items: center;
+    flex-direction: column;
+}
+
+.meow > * {
+    margin-bottom: 1rem;
+}
+
+.circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.nyan {
+    transform: scale(1.05);
+}
+
+.logo {
+    filter: invert();
+}
